@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* border: 2px solid red;
+    margin: 10px;
+    padding: 10px; */
+    max-width: 1200px;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background: black;
+}
+section {
+    margin-block: 20px  ;
+}
+
+a {
+    text-decoration: none;
+}
+/*SECTION NAV CONTAINER Y NAV 1*/
+.nav-container {
+
+    padding: 10px 0;
+    background: darkred;
+    text-align: end;
+}
+.nav-container a {
+    color: white;
+}
+.nav-container a:hover {
+    color: rgb(176, 216, 66);
+    text-decoration: underline;
+}
+header {
+    font-size: 18px;
+}
+header a {
+    text-decoration: none;
+    /* list-style: none; */
+}
+.nav1 a {
+    margin-inline: 10px;
+}
+.nav1 svg {
+    margin-inline: 10px;
+}
+
+/*SECTION NAVBAR*/
+.navbar {
+    display: flex;
+    align-items: center;
+    background: black;
+}
+.navbar ul  {
+    display: flex;
+    list-style: none;
+    margin-left: 50px;
+}
+.navbar a {
+    margin: 0 20px;
+    color: white;
+}
+
+/*SECTION 1*/
+
+.col-5 ms-2 {
+    width: 40%;
+}
+.section1 {
+    display: flex;
+    margin-top: 20px;
+}
+.section1 img {
+    margin-right: 10px;
+    height: 400px;
+}
+.content-container {
+    margin-left: 10px;
+    height: 400px;
+    width: 40%;
+} 
+.content-container a {
+    text-decoration: none;
+    color: black;
+}
+/**no se para que sirve este pseudoclase/
+.content-container a:any-link {
+    /* color: green; } */
+/*TODAS LAS h3*/
+h3 {
+    background: orangered;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+.content div {
+    background: lightgray;
+    width: 95%;
+    margin: auto;
+    border-radius: 5px;
+    /* margin-block: 20px; */
+    padding: 15px;
+    color: black;
+}
+
+/*SECTION 2*/
+.section2 {
+    display: flex;
+    margin-top: 20px;
+}
+.title-1 {
+    background: white;
+    width: 60%;
+    margin-right: 10px;
+    text-align: center;
+}
+.title-1 img {
+    margin-block: 5px  ;
+    width: 95%;
+    height: 300px;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-block: 5px;
+    font-size: 30px;
+}
+
+.content div {
+    background: lightgray;
+    border-radius: 5px;
+    margin-block: 20px;
+    padding: 15px;
+    color: black;
+}
+.section2 .publications-container {
+    width: 50%;
+    margin-left: 10px;
+} 
+
+/*SECTION 3*/
+.section3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+.subscribe {
+    background: rgb(211, 98, 33);
+    color: white;
+    font-size: 20px; /*tamaño de letra del todo el div*/
+    font-weight: 100;
+    text-align: center;
+    padding: 10px 10px 20px;
+}
+
+.subscribe p {
+    font-size: 20px;   
+}
+.subscribe h2 {
+    margin-bottom: 100px;
+    border-bottom: 4px solid white ;
+    width: 90%;
+    margin: auto;
+}
+.card {
+    background: lightgray;
+    font-size: 18px;
+}
+.content-card {
+    padding: 15px;
+}
+/* .card h2 {
+    font-weight: 100;
+    font-size: 40px;
+    letter-spacing: 5px;
+    line-height: 60px;
+    margin:20px 0 150px 0;
+} */
+/* .card img {
+    width: 100%;
+    height: 200px;
+} */
+/*SECOND SECTION BANNER*/
+.first-card {
+    background: url(../images/chica_digital.jpeg);
+    background-size: 100%;
+}
+.col-7 h2 {
+    background: rgba(250, 250, 250, 0.5) ;
+}
+.card .col-7 {
+    background-image: none;
+}
+/*TODOS LOS INPUT*/
+.input {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: start;
+}
+.input label {
+    display: flex;
+    /* margin-block: 10px; */
+}
+input {
+    width: 20px;
+    height: 20px;
+    margin-inline: 10px;
+}
+/*CLASS EMAIL*/
+.email {
+    text-align: justify;
+}
+.email p:first-child {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.email p {
+    line-height: 25px;
+    font-size: 16px;
+}
+.email input {
+    width: 100%;
+    padding: 20px;
+    margin-left: 0;
+    margin: 15px 0;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.email a {
+    color: white;
+}
+.email button {
+    /* margin-top: 20px; */
+    padding: 20px 0;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 5px;
+}
+button:hover {
+    background: darkred;
+}
+
+/*DIV SECTION 4*/
+.section4 {
+    display: flex;
+}
+.section4 img {
+    width: 100%;
+    height: 60%;
+}
+.click {
+    background: lightseagreen;
+    width: 40%;
+    height: 600px;
+    margin-right: 10px;
+    font-size: 50px;
+    color: white;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.click h2 {
+    margin: auto;
+    width: 90%;
+    margin-top: 60px;
+}
+.click button {
+    width: 90%;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 5px;
+    background: orangered;
+    color: white;
+}
+.info {
+    width: 60%;
+    height: 600px;
+    margin-left: 10px;
+    font-size: 25px;
+    background: lightslategrey;
+}
+.content h2 {
+   margin-block: 20px;
+}
+
+/*CONTACT US*/
+.contact-us {
+    display: flex;
+    gap: 20px;
+}
+.card-contact {
+    width: 400px;
+    /* height: 350px; */
+    background: orangered;
+    color: white;
+}
+.card-contact img {
+    width: 100%;
+}
+.card-contact h4 {
+    font-size: 30px;
+}
+.card-contact p {
+    font-size: 20px;
+    line-height: 30px;
+}
+.card-contact h4,
+.card-contact p {
+    margin: 5px 10px;
+    padding: 10px;
+}
+/*SECTION PENULTIMA ANTES DEL FOOTER*/
+.susc-blog {
+    display: flex;
+    background-image:url(../images/Dirt-4766.jpg);
+    background-size: 100%;
+}
+.susc-blog h3 {
+    background: none;
+    font-size: 25px;
+    color: initial;
+}
+.susc-blog .input {
+    display: initial;
+}
+.container-button {
+    display: flex;
+}
+.container-button button {
+    width: 50%;
+    height: 44px;
+    margin: 15px 10px;
+    padding: initial;
+}
+.width-40 {
+
+    width: 40%;
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.width-40 h3 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: white;
+}
+.width-40 p {
+    margin-block: 10px;
+}
+.width-60 {
+    width: 60%;
+    font-size: 20px;
+    padding: 20px;
+}
+/*FOOTER*/
+footer {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+}
+footer img {
+    border-radius: 50px;
+}
+footer h5 {
+    font-size: 20px;
+    margin-block: 10px;
+}
+footer svg {
+    width: 35px;
+    color: white;
+    margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+/*https://blog.hubspot.es/marketing*/
