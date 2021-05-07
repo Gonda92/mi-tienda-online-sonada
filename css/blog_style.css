@@ -64,12 +64,12 @@ header a {
     margin: 0 20px;
     color: white;
 }
-.navbar a:hover {
-    color: lime;
-    text-decoration: underline;
-}
 
 /*SECTION 1*/
+
+.col-5 ms-2 {
+    width: 40%;
+}
 .section1 {
     display: flex;
     margin-top: 20px;
@@ -155,7 +155,7 @@ h1 {
     font-size: 20px; /*tamaño de letra del todo el div*/
     font-weight: 100;
     text-align: center;
-    padding: 30px 10px 20px;
+    padding: 10px 10px 20px;
 }
 
 .subscribe p {
@@ -174,27 +174,38 @@ h1 {
 .content-card {
     padding: 15px;
 }
-.card h2 {
+/* .card h2 {
     font-weight: 100;
     font-size: 40px;
     letter-spacing: 5px;
     line-height: 60px;
     margin:20px 0 150px 0;
-}
-.card img {
+} */
+/* .card img {
     width: 100%;
     height: 200px;
+} */
+/*SECOND SECTION BANNER*/
+.first-card {
+    background: url(../images/chica_digital.jpeg);
+    background-size: 100%;
+}
+.col-7 h2 {
+    background: rgba(250, 250, 250, 0.5) ;
+}
+.card .col-7 {
+    background-image: none;
 }
 /*TODOS LOS INPUT*/
 .input {
-    margin-top: 30px;
+    margin-top: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     text-align: start;
 }
 .input label {
     display: flex;
-    margin-block: 10px;
+    /* margin-block: 10px; */
 }
 input {
     width: 20px;
@@ -226,7 +237,7 @@ input {
     color: white;
 }
 .email button {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     padding: 20px 0;
     width: 100%;
     font-size: 20px;

@@ -1,28 +1,38 @@
 <!DOCTYPE html>
 <html lang="es">
-  <link rel="stylesheet" href="./css/blog_style.css" />
+  <link rel="stylesheet" href="./CSS/blog_style.css" />
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
     <title>Mi Tienda Online Soñada</title>
   </head>
-  <body>
+  <body class="m-auto" style="box-sizing: border-box">
+    <!-- Las 2 barras de navegacion lo hice con bootstrap -->
     <header>
       <div class="nav-container">
         <div class="nav1">
-          <a href="https://google.com"><svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="16"
-            height="16"
-            fill="currentColor"
-            class="bi bi-person-fill"
-            viewBox="0 0 16 16"
+          <a href="">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-person-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+              /></svg
+            >Iniciar sesion</a
           >
-            <path
-              d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
-            />
-          </svg>Iniciar sesion</a>
           <a href="">Atencion al cliente</a>
           <a href="">Sobre nosotros</a>
         </div>
@@ -45,164 +55,233 @@
     </header>
 
     <main>
+      <!-- using bootstrap to make ALL SECTIONS -->
+      <!-- SECTION ONE -->
       <section>
-        <div class="section1">
-          <a href="https://neliosoftware.com/es/blog/diferencias-entre-un-blog-y-un-sitio-web/" target="_blank"><img src="./images/blog.png" alt="imagen-portada" /></a>
-          <div class="content-container">
-            <h3>Publicaciones mas populares</h3>
-            <div class="content">
-              <div>
-                <a href="">
-                  24 consejos para trabajar desde casa sin perjudicar tu
-                  productividad <br>
-                  <label>Marketing | Lectura de 13 min.</label>
-                </a>
-              </div>
-              <div>
-               <a href=""> ¿Como usar herramientas tecnologicas?<br>
-                <label>Marketing | Lectura de 10 min.</label></a>
-              </div>
-              <div>
-                 <a href=""> 8 tendencias que te ayudaran a reinventar el proceso de
-                  compras de lo clientes<br>
-                <label>Marketing | Lectura de 10 min.</label></a>
+        <div class="card mb-3 border-0">
+          <div class="row g-0 mb-3">
+            <div class="col-7 me-2" style="width: 680px">
+              <img
+                src="./images/blog.png"
+                class="img-fluid"
+                style="width: 100%; height: auto;"
+                alt="..."
+              />
+            </div>
+            <div class="col-5 ms-2">
+              <div class="card-body p-0">
+                <h5
+                  class="card-title bg-danger text-center text-light fs-4 rounded py-2"
+                >
+                  Publicaciones más populares
+                </h5>
+                <div class="fs-5.5 text-dark bg-secondary rounded p-2 my-2">
+                  <p class="card-text">
+                    24 consejos para trabajar desde casa sin perjudicar tu
+                    productividad
+                  </p>
+                  <p class="card-text">
+                    <small class="text-dark"
+                      >Marketing | Lectura de 13 min.</small
+                    >
+                  </p>
+                </div>
+                <div class="fs-5.5 text-dark bg-secondary rounded p-2 my-2">
+                  <p class="card-text">¿Como usar herramientas tecnologicas?</p>
+                  <p class="card-text">
+                    <small class="text-dark"
+                      >Marketing | Lectura de 10 min.</small
+                    >
+                  </p>
+                </div>
+                <div class="fs-5.5 text-dark bg-secondary rounded p-2 my-2">
+                  <p class="card-text fs-5.5">
+                    8 tendencias que te ayudaran a reinventar el proceso de
+                    compras de lo clientes
+                  </p>
+                  <p class="card-text">
+                    <small class="text-dark"
+                      >Marketing | Lectura de 10 min.</small
+                    >
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
+      </section>
 
-        <div class="section2">
-          <div class="title-1">
-            <h1>25 Herramientas esenciales de business intelligence</h1>
-            <a href="https://mopinion.com/es/las-15-mejores-herramientas-de-inteligencia-de-negocios-una-vista-general/" target="_blank"><img
-              src="./images/chica_digital.jpeg"
-              width="500"
-              height="250"
-              alt=""
-            /></a>
-          </div>
-          
-          <div class="content-container">
-            <h3>Publicaciones recomendadas</h3>
-            <div class="content">
-              <div>
-                <p>Atajos y trucos en windows que te ahorran mucho tiempo</p>
-                <label>Marketing | Lectura de 13 min.</label>
-              </div>
-              <div>
-                <p>¿Como usar herramientas tecnologicas?</p>
-                <label>Marketing | Lectura de 10 min.</label>
-              </div>
-              <div>
-                <p>¿Como usar herramientas tecnologicas?</p>
-                <label>Marketing | Lectura de 10 min.</label>
+      <!-- SECTION TWO -->
+      <section>
+          <div class="row m-0">
+            <div class="first-card col-7 me-2 border border-dark" style="width: 680px; height: 350px">
+              <h2 class="text-center text-danger display-6   fw-normal" style="width: 350px;">25 HERRAMIENTAS<br> ESENCIALES DE BUSINESS<br>INTELLIGENCE</h2>
+              <!-- <img
+                src="./images/chica_digital.jpeg"
+                class="img-fluid"
+                style="height: 246px; width: 100%"
+              /> -->
+            </div>
+            <div class="col-5 ms-2">
+              <div class="card-body p-0">
+                <h5
+                  class="card-title bg-danger text-center text-light fs-4 rounded py-2"
+                >
+                  Publicaciones Recomendadas
+                </h5>
+                <div class="fs-5.5 text-dark bg-secondary rounded p-2 my-2">
+                  <p class="card-text">
+                    Atajos y trucos en windows que te ahorran mucho tiempo
+                  </p>
+                  <p class="card-text">
+                    <small class="text-dark"
+                      >Marketing | Lectura de 13 min.</small
+                    >
+                  </p>
+                </div>
+                <div class="fs-5.5 text-dark bg-secondary rounded p-2 my-2">
+                  <p class="card-text">¿Como usar herramientas tecnológicas?</p>
+                  <p class="card-text">
+                    <small class="text-dark"
+                      >Marketing | Lectura de 10 min.</small
+                    >
+                  </p>
+                </div>
+                <div class="fs-5.5 text-dark bg-secondary rounded p-2 my-2">
+                  <p class="card-text fs-5.5">
+                    ¿Como usar herramientas tecnológicas?
+                  </p>
+                  <p class="card-text">
+                    <small class="text-dark"
+                      >Marketing | Lectura de 10 min.</small
+                    >
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
+      <!-- SECTION THREE -->
       <section>
-        <div class="section3">
-          <div class="card">
-            <img src="./images/datos.jpeg" width="400" alt="" />
-            <div class="content-card">
-              <p>Analisis de Datos</p>
-              <a href="https://support.google.com/datastudio/answer/6283323?hl=es" target="_blank"><h2>
-                Como utilizar Google Data Studio para el analisis de datos
-              </h2></a>
-              <label>MARKETING | Lectura de 39 min</label>
-            </div>
-          </div>
-          <div class="card">
-            <img src="./images/work.jpeg" width="400" alt="" />
-            <div class="content-card">
-              <p>Diseño web</p>
-              <a href="https://sites.google.com/site/proactivosventaonline/proyecto/informacion-sobre-el-e-commerce" target="_blank"> <h2>
-                Introduccion al E-commerce<br />
-                Aprende a darle estilo a tu sitio web
-              </h2></a>
-              <label>MARKETING | Lectura de 39 min</label>
-            </div>
-          </div>
-          <div class="subscribe">
-            <h2>Suscribete a nuestro newsletter</h2>
-            <div class="input">
-              <label>
-                <input type="checkbox" />
-                <p>Marketing</p>
-              </label>
-              <label>
-                <input type="checkbox" />
-                <p>Ventas</p>
-              </label>
-              <label>
-                <input type="checkbox" />
-                <p>Gestion de Clientes</p>
-              </label>
-            </div>
-            <div class="email">
-              <p>Dirección de correo</p>
-              <input type="email" placeholder="ingresa tu email" />
-              <p>
-                Tu privacidad es importante para nosotros. HubSpot utiliza la
-                información que proporcionas para ponerse en contacto contigo en
-                relación con contenido, productos y servicios relevantes para
-                ti. Puedes darte de baja para dejar de recibir este tipo de
-                comunicaciones en cualquier momento. Si deseas obtener más
-                información sobre la protección de tus datos en HubSpot,
-                consulta nuestra <a href="">Politica de Privacidad</a>
-              </p>
-              <button>Enviar</button>
+        <div class="container p-0 ">
+          <div class="row m-0 gap-2" style="width: 1200px">
+              <div class="card col-4 p-0" style="width:32.88%; height:659px">
+                  <img src="./images/datos.jpeg" style="height: 261px;" class="card-img-top" alt="...">
+                  <div class="content-card">
+                    <p>Analisis de Datos</p>
+                    <a
+                      href="https://support.google.com/datastudio/answer/6283323?hl=es"
+                      target="_blank"
+                      ><h2>
+                        Como utilizar Google Data Studio para el analisis de datos
+                      </h2></a
+                    >
+                    <label>MARKETING | Lectura de 39 min</label>
+                  </div>
+              </div>
+              <div class="card col-4 p-0" style="width:32.88%;; height:659px">
+                  <img src="./images/work.jpeg" style="height: 261px;" class="card-img-top" alt="...">
+                  <div class="content-card">
+                    <p>Diseño web</p>
+                    <a
+                      href="https://sites.google.com/site/proactivosventaonline/proyecto/informacion-sobre-el-e-commerce"
+                      target="_blank"
+                    >
+                      <h2>
+                        Introduccion al E-commerce<br />
+                        Aprende a darle estilo a tu sitio web
+                      </h2></a
+                    >
+                    <label>MARKETING | Lectura de 39 min</label>
+                  </div>
+              </div>
+  
+              <div class="card col-4 p-0" style="width:32.88%; height:659px">
+                <div class="subscribe">
+                  <h2>Suscribete a nuestro newsletter</h2>
+                  <div class="input">
+                    <label>
+                      <input type="checkbox" />
+                      <p>Marketing</p>
+                    </label>
+                    <label>
+                      <input type="checkbox" />
+                      <p>Ventas</p>
+                    </label>
+                    <label>
+                      <input type="checkbox" />
+                      <p class="mb-0">Gestion de Clientes</p>
+                    </label>
+                  </div>
+                  <div class="email">
+                    <p>Dirección de correo</p>
+                    <input type="email" placeholder="ingresa tu email" />
+                    <p>
+                      Tu privacidad es importante para nosotros. HubSpot utiliza la
+                      información que proporcionas para ponerse en contacto contigo en
+                      relación con contenido, productos y servicios relevantes para
+                      ti. Puedes darte de baja para dejar de recibir este tipo de
+                      comunicaciones en cualquier momento. Si deseas obtener más
+                      información sobre la protección de tus datos en HubSpot,
+                      consulta nuestra <a href="">Politica de Privacidad</a>
+                    </p>
+                    <button>Enviar</button>
+                  </div>
+                </div>
             </div>
           </div>
         </div>
       </section>
-
+      
+       <!-- SECTION FOUR -->
       <section>
-        <div class="section4">
-          <div class="click">
-            <h2>Visita la Biblioteca de Marketing</h2>
-            <a href="https://learndigital.withgoogle.com/activate/course/digital-marketing" target="_blank"><button>Aqui</button></a>
+        <div class="row gap-2 m-0">
+          <div class="col-5 border border-dark p-0 bg-success text-center" style="width:40%">
+            <h2 class="display-4 text-light my-5">Visita la biblioteca <br> de marketing</h2>
+            <a href="https://learndigital.withgoogle.com/activate/course/digital-marketing" target="_blank"><button class="btn btn-primary bg-danger p-3 fs-4" style="width: 400px;" type="button">Button</button></a>
           </div>
-          <div class="info">
-            <img src="./images/reunion.jpeg" alt="" />
-            <div class="content">
+  
+          <div class="card col-7 p-0 border border-dark" style="width:59.3%">
+            <img src="./images/reunion.jpeg" style="height: 261px;" class="card-img-top" alt="...">
+            <div class="content bg-secondary p-3">
               <p>Emprendimiento</p>
-              <h2>
+              <h2 class="bg-transparent">
                 Los 20 mejores programas para hacear presentaciones inolvidables
               </h2>
-              <label> MARKETING | Lectura de 15 min. </label>
+              <a href="" class="text-dark"><label> MARKETING | Lectura de 15 min.</label></a>
             </div>
           </div>
         </div>
       </section>
 
+       <!-- SECTION FIVE -->
       <section>
-        <div class="contact-us">
-          <div class="card-contact">
-            <img src="./images/marketing.jpeg" alt="" />
-            <h4>Marketing</h4>
-            <p>
-              ideas, inspiracion y tendencias para los profesionales de
-              marketing moderno
-            </p>
+        <div class="card-group gap-3">
+          <div class="card">
+            <img src="./images/marketing.jpeg" class="card-img-top" alt="...">
+            <div class="card-body bg-primary bg-dark text-white">
+              <h5 class="card-title">Marketing</h5>
+              <p class="card-text">Ideas, inspiracion y tendencias para los profesionales de marketing moderno</p>
+              <p class="card-text"><small class="">Last updated 3 mins ago</small></p>
+            </div>
           </div>
-          <div class="card-contact">
-            <img src="./images/sales(ventas).jpeg" alt="" />
-            <h4>Ventas</h4>
-            <p>
-              ideas, inspiracion y tendencias para los profesionales de
-              marketing moderno
-            </p>
+          <div class="card">
+            <img src="./images/sales(ventas).jpeg" class="card-img-top" alt="...">
+            <div class="card-body bg-primary bg-dark text-white">
+              <h5 class="card-title">Ventas</h5>
+              <p class="card-text">Ideas, inspiracion y tendencias para los profesionales de marketing moderno</p>
+              <p class="card-text"><small class="">Last updated 3 mins ago</small></p>
+            </div>
           </div>
-          <div class="card-contact">
-            <img src="./images/callcenter.jpeg" alt="" />
-            <h4>Atencion al Cliente</h4>
-            <p>
-              ideas, inspiracion y tendencias para los profesionales de
-              marketing moderno
-            </p>
+          <div class="card">
+            <img src="./images/callcenter.jpeg" class="card-img-top" alt="...">
+            <div class="card-body bg-dark text-white">
+              <h5 class="card-title">Atencion al Cliente</h5>
+              <p class="card-text">Ideas, inspiracion y tendencias para los profesionales de marketing moderno</p>
+              <p class="card-text"><small class="">Last updated 3 mins ago</small></p>
+            </div>
           </div>
         </div>
       </section>
@@ -280,5 +359,12 @@
         </p>
       </footer>
     </main>
+
+    <!--BOOTSTRAP-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
   </body>
 </html>
+<!-- SIGUE ESTOS 3 PASOS PARA QUE TU CODIGO SE ACTUALICE EN GITHUB
+$ git add . adiciona los archivos para que podamos comitiar (versionar)
+$ git commit -m "en index html, modifique la hoja CCS a css" (creamos la version)
+git push origin master (empuja la version del repositorio local ".git" al repositorio remoto "github") -->
